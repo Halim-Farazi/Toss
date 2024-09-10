@@ -40,5 +40,5 @@ formElm.addEventListener("submit", (evt) => {
   t1elm.textContent = T1Name;
   t2elm.textContent = T2Name;
   let tossWinningTeam = tossWinner(T1Name, T2Name);
-  winner.textContent = tossWinningTeam;
+  winner.textContent = `Toss winner is: ${tossWinningTeam}`;
 });
